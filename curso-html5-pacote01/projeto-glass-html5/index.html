@@ -4,7 +4,33 @@
 A TAG $nbsp é equivalente a um espaço 
 &shy vai ifenizar uma palavra quando a mesma for quebrada
 <wbr/> Vai quebrar a palavra sem ifenização
+<b>Negrito</b>
+<i>itálico</i>
+<em>Outra maneira de "deixar em itálico</em>
+<del>Risca o meio da palavra</del>
+<span>Utilizada para formatar pequenos trechos de texto</span>
+<span style="text-decoration: line-through;">Risca no meio</span>
+<span style="text-decoration: underline;">Sublinha</span>
+<span style="text-decoration: overline;">Risca em cima da palavra</span>
+<span style="font-weight: bold;">Negrito</span>
+<span style="font-weight: bolder;">mais negrito ainda</span>
+<span style="font-weight: 900;">nível de negrito entre 100 e 900</span>
+<h2 style="text-align: center">Alinhamento (esquerda, meio, direita)</h2>
+<p style="text-indent: 50px">Inicia a primeira linha 5o pixels mais a direita</p>
+<sup>Sobrescrever uma palavra</sup>
+<sub>Subrescrever uma palavra</sub>
+<pre>
+	Tudo que está entre a TAG PRE será considerado (espaços e enters)
+<code>
+	int main(){
+	
+		printf("A TAG code serve para imprimir códigos no navegador");
+	}
+</code>
+</pre>
+
 <h1>Símbolos especiais</h1>
+
 
 		<p>
 			&lt; Símbolo especial menor que (<)
@@ -55,6 +81,15 @@ A TAG $nbsp é equivalente a um espaço
 <head>
 	<meta charset="utf-8"/> <!-- Para aceitar acentuações -->
 	<title>Tudo sobre Google Glass</title> <!-- Título que aparece na aba do navegador -->
+
+	<!-- Aplicando as formatações na TAG <p> para alterar o texto sempre que a utilizarmos  -->
+	<style>
+		p{
+			text-align: justify;
+			text-indent: 50px;
+		}
+
+	</style>
 </head>
 
 <body>
@@ -86,9 +121,8 @@ A TAG $nbsp é equivalente a um espaço
 			<h3>Atualizado em 23/Abril/2013</h3>
 		</hgroup>
 
-
 		<h2>O que é</h2>
-		<p>O Google Glass é um acessório em forma de óculos que possibilita a interação dos usuários com diversos conteúdos em realidade aumentada. Também chamado de Project Glass, o eletrônico é capaz de tirar fotos a partir de comandos de voz, enviar mensagens instantâneas e realizar vídeoconferências. Seu lançamento está previsto para 2014, e seu preço deve ser de US$ 1,5 mil. Atualmente o Google Glass encontra-se em fase de testes e já possui um vídeo totalmente gravado com o dispositivo. Além disso, a companhia de buscas registrou novas patentes anti-furto e de desbloqueio de tela para o acessório.</p>
+		<p>O <span style="font-weight: 900;">Google Glass</span> é um acessório em forma de óculos que possibilita a interação dos usuários com diversos conteúdos em realidade aumentada. Também chamado de <i>Project Glass</i>, o eletrônico é capaz de tirar fotos a partir de comandos de voz, enviar mensagens instantâneas e realizar vídeoconferências. Seu lançamento está previsto para 2014, e seu preço deve ser de US$ 1,5 mil. Atualmente o <em>Google Glass</em> encontra-se em fase de testes e já possui um vídeo totalmente gravado com o dispositivo. Além disso, a companhia de buscas registrou novas patentes anti-furto e de desbloqueio de tela para o acessório.</p>
 
 		[AQUI ENTRA UMA FOTO]
 
