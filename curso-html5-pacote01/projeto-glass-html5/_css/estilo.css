@@ -3,9 +3,19 @@
 /* Aplicando as formatações na TAG <p> para alterar o texto sempre que a utilizarmos */
 body{
 
-	background-color: white;
-	color: rgba(0,0,0,1); /*Altera a cor da fonte*/ 
+	background-color: #dddddd;
+	color: rgba(0,0,0,1); /*Altera a cor da fonte, 'a' é a transparência*/ 
 }
+
+div#interface {
+
+	width: 900px;
+	background-color: white;
+	margin: -20px auto 0px auto; /*cima - direita - baixo - esquerda*/
+	box-shadow: 0px 0px 10px rgba(0,0,0, .5); /*Sombra no body*/
+	padding: 10px; /*Dentro do objeto (Texto deslocado)*/
+}
+
 p{
 	text-align: justify;
 	text-indent: 50px;
@@ -42,6 +52,18 @@ figure.foto-legenda figcaption{
 	transition: opacity 1s;
 }
 
+header#cabecalho img#icone{
+
+	position: absolute;
+	left: 900px;
+	top: 50px;
+}
+
+header#cabecalho{
+
+	
+}
+
 /*Exibe a legenda quando passa o mouse por cima*/
 figure.foto-legenda:hover figcaption{
 
@@ -60,7 +82,7 @@ nav#menu ul{
 	text-transform: uppercase; /*Todas letras em maiusculas*/
 	position: absolute; /*Possa passar por cima dos documentos*/
 	top: -20px;
-	left: 300px;
+	left: 450px;
 }
 
 nav#menu li{
